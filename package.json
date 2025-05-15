@@ -1,5 +1,5 @@
 {
-  "name": "@executeautomation/playwright-mcp-server",
+  "name": "@eugenekravchenko/mcp-playwright",
   "version": "1.0.5",
   "description": "Model Context Protocol servers for Playwright",
   "license": "MIT",
