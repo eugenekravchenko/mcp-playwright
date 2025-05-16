@@ -25,9 +25,9 @@ jobs:
       - name: Configure .npmrc for authentication
         run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: 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
 
       - name: Publish to npm
         run: yarn publish --access restricted --non-interactive
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: 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
