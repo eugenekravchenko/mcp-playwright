@@ -28,6 +28,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish to npm
-        run: yarn publish --access public --non-interactive
+        run: yarn publish --access restricted --non-interactive
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
