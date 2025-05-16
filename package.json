@@ -1,6 +1,6 @@
 {
   "name": "@eugenekravchenko/mcp-playwright",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "Model Context Protocol servers for Playwright",
   "license": "MIT",
   "author": "ExecuteAutomation, Ltd (https://executeautomation.com)",
@@ -10,6 +10,9 @@
   "type": "module",
   "bin": {
     "playwright-mcp-server": "dist/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "dist"
