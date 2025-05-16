@@ -11,6 +11,7 @@
   "bin": {
     "playwright-mcp-server": "dist/index.js"
   },
+  "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
