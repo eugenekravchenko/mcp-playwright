@@ -1,5 +1,5 @@
 {
-  "name": "@eugenekravchenko/mcp-playwright",
+  "name": "@kravchenkoeu/mcp-playwright",
   "version": "1.0.1",
   "description": "Model Context Protocol servers for Playwright",
   "license": "MIT",
